@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Barlow:wght@400;600&family=Cormorant+Upright:wght@700&family=DM+Sans&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter&family=Jura&family=League+Spartan&family=Lexend+Deca&family=Montserrat&family=Noto+Sans:wght@400;600&family=Poppins&family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(55deg, coral 50%, black 50%);
+}
+.oyinHeader {
+  margin: 0 auto;
+  width: 500px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  margin-top: -100px;
+}
+.oyinHeader #player1 {
+  text-align: center;
+}
+.oyinHeader #player2 {
+  text-align: center;
+}
+#btn {
+  width: 200px;
+  background: none;
+  border: 2px solid #505;
+  color: #303;
+  font-weight: 700;
+  letter-spacing: 1px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+#btn:hover {
+  background: black;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: none;
+}
+#btn2 {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background: none;
+  border: 2px solid white;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+#btn2:hover {
+  background: #505;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: none;
+}
+.vs {
+  color: #505;
+  font-size: 30px;
+  font-style: italic;
+}
+.vs span {
+  color: #fff;
+}
+#raqam1 {
+  font-size: 50px;
+  color: #505;
+  margin-bottom: 50px;
+}
+#raqam2 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 50px;
+}
+.h1_text {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  font-size: 70px;
+  color: white;
+}
+#btn_resultad {
+  width: 300px;
+  height: 60px;
+  background: none;
+  margin: 0 auto;
+  transition: 0.3s all;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -150px;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+#btn_resultad:hover {
+  background: #505;
+  border: none;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
